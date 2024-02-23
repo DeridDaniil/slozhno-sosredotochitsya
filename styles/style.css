@@ -16,7 +16,7 @@
 }
 
 .text-shadow {
-  text-shadow: 4px 4px 0 #FF0070;
+  text-shadow: 4px 4px 0 var(--box-shadow-color);
 }
 
 .span-shadow {
@@ -117,8 +117,6 @@
   gap: 12px;
 }
 
-.header__theme-menu-item {}
-
 .header__theme-menu-button {
   background: transparent;
   border: 1px solid transparent;
@@ -142,18 +140,10 @@
   border-block-end-color: var(--accent-color);
 }
 
-.header__theme-menu-button_type_light {}
-
 .header__theme-menu-button_active {
   pointer-events: none;
   border-color: var(--accent-color);
 }
-
-.header__theme-menu-button_type_auto {}
-
-.header__theme-menu-button_type_dark {}
-
-.header__title {}
 
 .header__paragraph {
   display: block;
@@ -217,8 +207,6 @@
   display: grid;
   gap: 10px;
 }
-
-.gallery__list-item {}
 
 .gallery__image {
   display: block;

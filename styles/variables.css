@@ -14,6 +14,7 @@
   --subtitle-color: #000028;
   --text-color: #F1B2CE;
   --large-title-color: #DB00FF;
+  --box-shadow-color: #FF0070;
   --span-shadow-color: #FF0070;
   --visibility-decor: block;
   
@@ -80,7 +81,6 @@
 }
 
 @media(width >= 1024px) {
-
   .header {
     grid-template-rows: repeat(3, 1fr);
   }
