@@ -29,7 +29,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .page.theme_light {
+  :root {
     --accent-color: #FF8DCB;
     --hover-color: #FF007066;
     --bg-color: #FFF1F7;
@@ -44,7 +44,7 @@
   }
 
   @media(width >= 1024px) {
-    .page.theme_light {
+    :root {
       --box-shadow-color: #FF0070;
     }
   }

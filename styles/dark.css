@@ -23,7 +23,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .page.theme_dark {
+  :root {
     --accent-color: #FF0070;
     --hover-color: #FF007066;
     --bg-color: #000028;
