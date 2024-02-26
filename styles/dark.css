@@ -18,7 +18,7 @@
   --text-color: #F1B2CE;
   --large-title-color: #DB00FF;
   --box-shadow-color: #FF0070;
-  --span-shadow-color: #FF0070;
+  --link-shadow-color: #FF0070;
   --visibility-decor: block;
 }
 
@@ -33,7 +33,7 @@
     --text-color: #F1B2CE;
     --large-title-color: #DB00FF;
     --box-shadow-color: #FF0070;
-    --span-shadow-color: #FF0070;
+    --link-shadow-color: #FF0070;
     --visibility-decor: block;
   }
 }
