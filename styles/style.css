@@ -21,10 +21,6 @@
   line-height: 23.4px;
 }
 
-.text-shadow {
-  text-shadow: 4px 4px 0 var(--box-shadow-color);
-}
-
 .link-shadow {
   text-shadow: 2px 2px 0 var(--link-shadow-color);
   text-decoration: none;
@@ -39,7 +35,7 @@
 }
 
 .link-shadow:focus-visible {
-  border: 1px solid var(--text-color);
+  outline: 1px solid var(--text-color);
 }
 
 .large-title {
@@ -51,8 +47,7 @@
   color: var(--large-title-color);
 }
 
-/* ---------------------HEADER------------------------ */
-/* ---------------------HEADER------------------------ */
+/* Начало стилей для header */
 
 .header {
   display: grid;
@@ -130,8 +125,9 @@
   font-family: var(--font-family, monospace);
   text-transform: lowercase;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 1;
   color: var(--title-color);
+  appearance: none;
 }
 
 .header__theme-menu-button:hover {
@@ -151,6 +147,10 @@
   border-color: var(--title-color);
 }
 
+.header__title {
+  text-shadow: 4px 4px 0 var(--box-shadow-color);
+}
+
 .header__paragraph-box {
   display: block;
   block-size: fit-content;
@@ -162,10 +162,9 @@
   line-height: 23.4px;
   font-size: 18px;
 }
+/* Конец стилей для header */
 
-/* ---------------------MAIN------------------------ */
-/* ---------------------MAIN------------------------ */
-
+/* Начало стилей для main */
 .main {
   padding: 0 clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   display: grid;
@@ -230,10 +229,9 @@
   inline-size: 100%;
   block-size: 100%;
 }
+/* Конец стилей для main */
 
-/* ---------------------FOOTER------------------------ */
-/* ---------------------FOOTER------------------------ */
-
+/* Начало стилей для footer */
 .footer {
   padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   min-block-size: 100vh;
@@ -242,10 +240,12 @@
   align-items: center;
 }
 
-/* ---------------------@MEDIA------------------------ */
-/* ---------------------@MEDIA------------------------ */
+.footer__title {
+  text-shadow: 2px 2px 0 var(--box-shadow-color);
+}
+/* Конец стилей для footer */
 
-
+/* Начало медиа стилей */
 @media(width >= 768px) {
   .large-title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -340,3 +340,4 @@
     align-items: start;
   }
 }
+/* Конец медиа стилей */
