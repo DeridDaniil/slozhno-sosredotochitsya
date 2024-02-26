@@ -22,19 +22,4 @@
   --visibility-decor: block;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --accent-color: #FF0070;
-    --hover-color: #FF007066;
-    --bg-color: #000028;
-    --bg-image: url(../images/cover-image-dark.png);
-    --title-color: #FF0070;
-    --subtitle-color: #000028;
-    --text-color: #F1B2CE;
-    --large-title-color: #DB00FF;
-    --box-shadow-color: #FF0070;
-    --link-shadow-color: #FF0070;
-    --visibility-decor: block;
-  }
-}
 

@@ -5,8 +5,8 @@
 
 :root {
   --font-family: 'IBM Plex mono';
-  
-  /* --accent-color: #FF0070;
+
+  --accent-color: #FF0070;
   --hover-color: #FF007066;
   --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
@@ -15,7 +15,7 @@
   --text-color: #F1B2CE;
   --large-title-color: #DB00FF;
   --box-shadow-color: #FF0070;
-  --span-shadow-color: #FF0070;
-  --visibility-decor: block; */
+  --link-shadow-color: #FF0070;
+  --visibility-decor: block;
   
 }

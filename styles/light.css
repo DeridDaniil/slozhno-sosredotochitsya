@@ -10,7 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #FF8DCB;
-  --hover-color: #FF007066;
+  --hover-color: #32312D66;
   --bg-color: #FFF1F7;
   --bg-image: url(../images/cover-image-light.png);
   --title-color: #353430;
@@ -31,7 +31,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #FF8DCB;
-    --hover-color: #FF007066;
+    --hover-color: #32312D66;
     --bg-color: #FFF1F7;
     --bg-image: url(../images/cover-image-light.png);
     --title-color: #353430;
